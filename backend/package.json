@@ -9,7 +9,7 @@
   "keywords": [],
   "type": "commonjs",
   "scripts": {
-    "start": "node --omit=dev ./index.js",
+    "start": "node ./index.js",
     "dev": "node --env-file=./.env --inspect --watch-path=./ ./index.js",
     "seeder": "node --env-file=./.env --trace-warnings ./seeders/customer-seeder.js"
   },
